@@ -1,0 +1,46 @@
+*{
+    font-family: 'Poppins';
+}
+
+h1,a {
+    text-align: center;
+}
+
+span{
+    color: cornflowerblue;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+a.active{
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn{
+    text-align: center;
+}
