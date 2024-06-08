@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-
-    const navigate = useNavigate();
+  
+  const navigate = useNavigate();
 
   const navigateHandler = () => {
     setTimeout(() => {
-        navigate("/products");
+      navigate("/products");
     }, 3000);
   };
 
